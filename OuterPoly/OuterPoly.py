@@ -68,7 +68,7 @@ def CoordsOuter(Polygoncoords,separation)
             x1,y1 = Polygoncoords_new[i]
             x2,y2 = Polygoncoords_new[i+1]
             x3,y3 = Polygoncoords_new[i+2]
-            Outercoord = angle(x1,y1,x2,y2,x3,y3)
+            Outercoord = angle(x1,y1,x2,y2,x3,y3,separation)
             Outercoords.append(Outercoord)
 
     Outercoords = np.array(Outercoords)
