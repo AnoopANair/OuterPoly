@@ -20,3 +20,9 @@ and can be called in your file via:
 > import OuterPoly as op
 
 The PyPI repo is found at : https://pypi.org/project/OuterPoly/
+
+
+You could cite the code using: 
+
+[![DOI](https://zenodo.org/badge/316223024.svg)](https://zenodo.org/badge/latestdoi/316223024)
+
