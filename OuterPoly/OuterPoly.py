@@ -57,7 +57,7 @@ def angle(x1,y1,x2,y2,x3,y3,separation):
 
 
 # function to find the outer cooords
-def CoordsOuter(Polygoncoords,separation)
+def CoordsOuter(Polygoncoords,separation):
 
     Polygoncoords = np.array(Polygoncoords)
     Polygoncoords_new = np.vstack((Polygoncoords,Polygoncoords[0],Polygoncoords[1]))
